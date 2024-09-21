@@ -1,3 +1,5 @@
 Hola a todos los chicos del bootcamp de change and code
 
-soy Gibrán Pérez soy programador
+soy Gibrán Pérez soy programador.
+
+me gusta el sushi y ramen.
