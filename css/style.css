@@ -1,0 +1,168 @@
+
+
+html, body {
+   
+    margin-left: 1%; /* Elimina márgenes por defecto */
+    margin-right: 1%;
+    padding: 0; /* Elimina padding por defecto */
+    overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
+    
+   
+}
+.general{
+  width: auto;
+  overflow-x: hidden;
+  align-items: center;
+  
+ 
+}
+    
+#logo {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+
+}
+.titulo{
+   text-align: center;
+    color: #F29F05;
+    margin: 0%;
+    padding: 0%;
+    
+    
+}
+.titulo h1 {
+    margin: 0%;
+}
+.titulo h2{
+    margin: 0%;
+    color: black;
+
+}
+nav a{
+    font-size: larger;
+    margin: 10px;
+    
+}
+
+.carrusel {
+    position: absolute;
+   justify-items: center;
+   display: none;
+    overflow: hidden;
+    width: 75%;
+    height: 400px;
+    margin-left: 10%;
+    
+    
+    
+}
+
+
+.carrusel h2{
+    margin: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 40px;
+    color: #A60000;
+    
+    
+}   
+
+
+.imagenes {
+    
+    overflow: hidden;
+    transition: transform 0.5s ease; 
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+     
+     
+}
+
+
+.invisible, .invisibleA, .invisibleD, .invisibleC{
+   display: none;
+    flex: 1;
+    
+   
+        
+}
+.invisible.active, .invisibleA.active, .invisibleD.active, .invisibleC.active {
+    
+    position: relative;
+    width: 40dvh;
+    height: 40dvh;
+    
+    padding: 0%;
+    display: inline-block;
+    margin: 4%;
+    transition: opacity 0.5s ease, visibility 0s;
+}
+
+.invisible.active img, .invisibleA.active img, .invisibleD.active img, .invisibleC.active img{
+    visibility: visible;
+    opacity: 1;
+    margin: 5px;
+    width: 40dvh;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+.carrusel h3{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+
+
+.tituloTapas, .tituloSopas, .tituloEnsaladas, .tituloAntipastis, .tituloBocadillos, 
+.tituloMariscoFrescos, .tituloCanapes, .tituloDips, .tituloContinental, .tituloAmericano, 
+.tituloIngles, .tituloMexicano, .tituloMediterraneo, .tituloOriental, .tituloVegano, .tituloFrances, 
+.tituloIndio, .tituloBrunch, .tituloTermina {
+    position: absolute;
+    
+    left: 50%; /* Centrar horizontalmente */
+    transform: translateX(-50%); /* Ajuste para centrar */
+    color: white; /* Color del texto */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente */
+    padding: 0px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 40px; /* Tamaño de la fuente */
+    bottom: 62%;
+}
+
+button {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+}
+
+.prev {
+    left: 2%;
+    font-size: x-large;
+    background-color: #F29F05;
+    color: white;
+}
+
+.next {
+    right: 2%;
+    font-size: x-large;
+    background-color: #F29F05;
+    color: white;
+    
+
+}
