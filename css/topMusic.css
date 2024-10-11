@@ -1,21 +1,54 @@
 body {
-    background-color: rgb(87, 87, 87);
+    font-family: Arial;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    background-image: url('https://image.shutterstock.com/image-photo/panoramic-abstract-blue-background-product-260nw-2500946363.jpg');
+    background-size: cover;
+   
 }
 
 h1 {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 25px;
 }
 
-.button-container a {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px;
-    color: white;
+ol {
+    list-style-position: inside;  
+    display:inline-block;
+    text-align: left;
+    margin: 20px 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+a {
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-   }
+    color: #333;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 20px;
+   
+}
+
+a:hover {
+    background-color: #45a049;
+}
 
 .button-container {
     text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #888;
+    text-align: center;
+    padding: 10px 0;
 }
